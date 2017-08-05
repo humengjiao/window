@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reason.css" />
+		<script type="text/javascript" src="js/swiper-3.4.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="js/zepto.min.js"></script>
+		<script>
+			document.documentElement.style.fontSize = innerWidth / 16 + "px"
+			$(function() {
+				$(".box_content li").eq(0).show().siblings().hide();
+				$(".title").eq(0).css("color", "#a51c30");
+				$(".p1").eq(0).css("color", "#a51c30");
+				$(".p2").eq(0).css("color", "#a51c30");
+				$(".selset li").on("tap", function() {
+					var index = $(this).index();
+					$(".box_content li").eq(index).show().siblings().hide();
+					$(this).find(".title").css("color", "#a51c30");
+					$(this).siblings().find(".title").css("color", "#1b1b1b");
+					$(this).find(".p1").css("color", "#a51c30");
+					$(this).siblings().find(".p1").css("color", "#1b1b1b");
+					$(this).find(".p2").css("color", "#a51c30");
+					$(this).siblings().find(".p2").css("color", "#1b1b1b");
+
+				})
+
+			})
+		</script>
+	</head>
+
+	<body>
+		<div class="container">
+
+			<section class="section">
+				<img class="fg_one" src="img/FG.png" />
+				<img class="fg_two" src="img/FG.png" />
+				<img class="fg_three" src="img/FG.png" />
+				<img class="fg_four" src="img/FG.png" />
+				<img class="fg_five" src="img/FG.png" />
+				<img class="fg_six" src="img/FG.png" />
+				<div class="logo"><img src="img/logo.png" /></div>
+				<div class="banner"><img src="img/ywk_01.png" /></div>
+				<div class="reason">
+					<img src="img/1_02.png" />
+
+					<!--<h4>选择我们的五大理由</h4>
+					<h6>5 REASONS TO CHOOSE FANGONG</h6>
+
+					<h5 class="h5_one">世界一流的教育资源</h5>
+					<p class="p_one">作为由全美教育协会领导的21世纪技能合作组织（P21）成员，凡功不仅与美国中小学共享最新的优质教学资源和教育服务，更得到了培生（Pearson）和霍顿·米夫林哈考特（HMHG）等世界级教育出版集团的直接支持
+					</p>
+					<h5 class="h5_two">原汁原味的美式课堂</h5>
+					<p class="p_two">纯正的美式教室布局、活泼生动的课堂气氛以及丰富多样的教学活动能够有效激发学习兴趣，促使学生从被动学习者变为主动参与者，正如本杰明·富兰克林所言“Involve me and I learn”
+					</p>
+					<h5 class="h5_three">让学生表达自如的教学法</h5>
+					<p class="p_three">凡功以学生为中心开展所有教研教学活动，通过融合任务导向、视觉化等最佳实践的教学法，帮助学生将被动的记忆升级为主动的使用，最终实现“说得地道，写得出彩”的教学目标
+					</p>
+					<h5 class="h5_four">更懂学生的教师团队</h5>
+					<p class="p_four">凡功的教研教学团队由哈佛、沃顿双料硕士，剑桥大学语言教师证书（CELTA）持有者，权威媒体双语财经主播，雅思监考官等既有深厚学术理论功底，又有多年教学实践经验的资深教师组成。
+						所有教师均接受过英语国际标准教学的系统培训，并拥有相同的理念以学生为中心
+					</p>
+					<h5 class="h5_five">独具一格的教学环境</h5>
+					<p class="p_five">凡功校区采用具有时代气息的工业设计风格，融合了自然元素与人文底蕴，并拥有最先进的教学设备与学生管理信息系统以及大量英文原版书籍
+					</p>-->
+
+				</div>
+				<div class="curriculum">
+					<img src="img/ywk_03.png" />
+					<h4>课程体系</h4>
+					<h6>CURRICULUM</h6>
+					<p>
+						凡功美国语文课跨越五个级别，每个级别之间为螺旋递进关系。课程内容以国际化课程为主，并实现了国内青少年英语考点的全覆盖。每个级别皆设有基础类和强化类课程内容，皆在实现知识与技能并驾齐驱的课程目标。
+					</p>
+				</div>
+				<div class="click">
+					<h4>凡功课程级别</h4>
+					<div class="click_box">
+						<ul class="selset">
+							<li>
+								<span></span>
+								<p class="title">F1</p>
+								<p class="p1">Starter</p>
+								<p class="p2">初始级</p>
+
+							</li>
+							<li>
+								<span></span>
+								<p class="title">F2</p>
+								<p class="p1">Elementary</p>
+								<p class="p2">基础级</p>
+							</li>
+							<li>
+								<span></span>
+								<p class="title">F3</p>
+								<p class="p1">Pre-intermediate</p>
+								<p class="p2">准中级级</p>
+							</li>
+							<li>
+								<span></span>
+								<p class="title">F4</p>
+								<p class="p1">Intermediate</p>
+								<p class="p2">中级</p>
+							</li>
+							<li>
+								<span></span>
+								<p class="title">F5</p>
+								<p class="p1">Advanced</p>
+								<p class="p2">高级</p>
+							</li>
+						</ul>
+
+						<div class="box_bottom">
+							<ul class="box_content">
+								<li class="cur">
+									<div class="one_first">
+										<img class="small" src="img/ywk_07.png" />
+										<h5 class="one_h5">课程内容</h5>
+										<p class="one_p">
+											基础课程（108 课时）：词汇语法课+听说读写技能课 
+										</p>
+										<p class="two_p">
+											强化课程（108 课时）：分级深度阅读+系统高阶写作  
+										</p>
+										<p class="three_p">
+											阅读量：36本（约19,800个单词）
+										</p>
+
+									</div>
+									<div class="one_next">
+										<img class="small" src="img/ywk_08.png" />
+										<h5 class="next_h5">课程目标</h5>
+										<p class="next_p">能够理解并运用非常基础的日常表达和短语；能够进行自我介绍，并就他人基本信息发问；在他人语速缓慢的前提下，能够以简单的方式互动。掌握大约1,000个核心单词。
+										</p>
+									</div>
+								</li>
+								<li>
+
+									<div class="one_first">
+										<img class="small" src="img/ywk_07.png" />
+										<h5 class="one_h5">课程内容</h5>
+										<p class="one_p">
+											基础课程（108 课时）：词汇语法课+听说读写技能课 
+										</p>
+										<p class="two_p">
+											强化课程（108 课时）：分级深度阅读+系统高阶写作
+										</p>
+											<p class="three_p">
+											阅读量：36本（约45,000个单词）
+										</p>
+
+									</div>
+									<div class="one_next">
+										<img class="small" src="img/ywk_08.png" />
+										<h5 class="next_h5">课程目标</h5>
+										<p class="next_p">能够理解与日常生活相关的表达，并与他人进行有效沟通；能简单描述个人背景、所在环境以及与衣食住行相关的事。掌握大约2,000个核心单词。
+										</p>
+									</div>
+								</li>
+								<li>
+
+									<div class="one_first">
+										<img class="small" src="img/ywk_07.png" />
+										<h5 class="one_h5">课程内容</h5>
+										<p class="one_p">
+											基础课程（108 课时）：词汇语法课+听说读写技能课 
+										</p>
+										<p class="two_p">
+											强化课程（108 课时）：分级深度阅读+系统高阶写作 
+										</p>
+											<p class="three_p">
+											阅读量：36本（约54,000个单词）
+										</p>
+
+									</div>
+									<div class="one_next">
+										<img class="small" src="img/ywk_08.png" />
+										<h5 class="next_h5">课程目标</h5>
+										<p class="next_p">能够理解他人在学习、工作与休闲活动中表述的主要观点；能够在国外旅行时处理多种情况；能够写出与自己兴趣相关的简单句子；能够简单描述并解释自己的经验、梦想与追求。掌握大约3,500个核心单词。
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="one_first">
+										<img class="small" src="img/ywk_07.png" />
+										<h5 class="one_h5">课程内容</h5>
+										<p class="one_p">
+											基础课程（108 课时）：词汇语法课+听说读写技能课  
+										</p>
+										<p class="two_p">
+											强化课程（108 课时）：分级深度阅读+系统高阶写作  
+										</p>
+										<p class="three_p">
+											阅读量：36本（约55,580个单词）
+										</p>
+
+									</div>
+									<div class="one_next">
+										<img class="small" src="img/ywk_08.png" />
+										<h5 class="next_h5">课程目标</h5>
+										<p class="next_p">能够理解多种话题的复杂文章，并对具体话题进行专业讨论；能够流利自如地与英语母语者进行日常交流；能够写出关于多种主题的长篇文章，并能针对特定话题进行利弊分析。掌握大约4,500个核心单词。
+										</p>
+									</div>
+
+								</li>
+								<li>
+
+									<div class="one_first">
+										<img class="small" src="img/ywk_07.png" />
+										<h5 class="one_h5">课程内容</h5>
+										<p class="one_p">
+											基础课程（108 课时）：词汇语法课+听说读写技能课 
+										</p>
+										<p class="two_p">
+											强化课程（108 课时）：分级深度阅读+系统高阶写作  
+										</p>
+										<p class="three_p">
+											阅读量：36本（约60,000个单词）
+										</p>
+
+									</div>
+									<div class="one_next">
+										<img class="small" src="img/ywk_08.png" />
+										<h5 class="next_h5">课程目标</h5>
+										<p class="next_p">能够深入理解难度较高的长篇文章；能够流利自如地表达自己；能够在社会、学术或职业场景中灵活而有效地与他人沟通；能够针对复杂话题写出逻辑清晰、结构严谨的文章。掌握至少6,000个核心单词。
+										</p>
+									</div>
+
+								</li>
+
+							</ul>
+						</div>
+
+					</div>
+
+				</div>
+				<div class="level">
+					<img src="img/ywk_04.png" />
+				</div>
+				<div class="contact_us">
+					<img src="img/ywk_05.png" />
+				</div>
+				<div class="footer">
+					<img src="img/ywk_06.png" />
+				</div>
+			</section>
+
+		</div>
+		<script>
+			var myswiper = new Swiper(".synopsis", {
+
+			})
+			var myFounder = new Swiper(".Founder", {
+
+			})
+		</script>
+	</body>
+
+</html>

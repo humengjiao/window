@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+  
+   
+}
+
+li {
+    list-style: none;
+}
+
+$sc:20;
+.container {
+    width: 100%;
+   
+    .section {
+        width: 100%;
+       
+        overflow: auto;
+        .logo {
+            width: 100%;
+            height: 66/$sc+rem;
+            background: #FFFFFF;
+            position: relative;
+            img {
+                display: block;
+                width: 115/$sc+rem;
+                height: auto;
+                position: absolute;
+                bottom: 6/$sc+rem;
+                right: 6/$sc+rem;
+            }
+        }
+        .banner {
+            width: 100%;
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+        .five_reason{
+               width: 100%;
+               position: relative;
+            img {
+                display: block;
+                width: 100%;
+            }
+            .reasons{
+                position: absolute;
+                top:10/$sc+rem;
+                left:80/$sc+rem; ;  
+                width:160/$sc+rem;                            
+            }
+            .reason_one{
+                position: absolute;
+                top:65/$sc+rem;
+                left:45/$sc+rem; ;  
+                width:240/$sc+rem;                            
+            }  
+             .reason_two{
+                position: absolute;
+                top:220/$sc+rem;
+                left:45/$sc+rem; ;  
+                width:240/$sc+rem;                            
+            }      
+             .reason_three{
+                position: absolute;
+                top:375/$sc+rem;
+                left:45/$sc+rem; ;  
+                width:240/$sc+rem;                            
+            }   
+            .reason_four{
+                position: absolute;
+                top:530/$sc+rem;
+                left:45/$sc+rem; ;  
+                width:240/$sc+rem;                            
+            } 
+            .reason_five{
+                position: absolute;
+                top:685/$sc+rem;
+                left:45/$sc+rem; 
+                width:240/$sc+rem;                            
+            }                       
+        }
+        .ad{
+            width: 100%;
+            position: relative;
+            img {
+                display: block;
+                width: 100%;
+            }
+            .ad_tell{
+                
+                position: absolute;
+                top:50/$sc+rem;
+                left:50/$sc+rem; 
+                width:220/$sc+rem;
+            }
+            
+            
+        }
+        .course_array{
+            background:#25435b;
+            width: 100%;
+            img {
+                display: block;
+                width: 80%;
+                margin: auto;
+            }
+        }
+        .five_course{            
+            background:#25435b;
+            img{               
+                width:260/$sc+rem;
+                margin: 30/$sc+rem  0 0 30/$sc+rem;
+                &:last-child{
+                    margin-bottom: 30/$sc+rem;
+                }
+            }
+        }
+        .contect_us{
+            width: 100%;
+            img {
+                display: block;
+                width: 100%;
+                margin: auto;
+            }
+        }
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

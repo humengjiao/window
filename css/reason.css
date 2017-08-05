@@ -1,0 +1,389 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+}
+
+.container .section {
+  width: 100%;
+  overflow: auto;
+  position: relative;
+}
+
+.container .section .fg_one {
+  width: 1rem;
+  height: 1rem;
+  display: block;
+  position: absolute;
+  top: 8.5rem;
+  left: 46.7%;
+  z-index: 999;
+}
+
+.container .section .fg_two {
+  width: 1rem;
+  height: 1rem;
+  display: block;
+  position: absolute;
+  top: 36.25rem;
+  left: 46.7%;
+  z-index: 995;
+}
+
+.container .section .fg_three {
+  width: 1rem;
+  height: 1rem;
+  display: block;
+  position: absolute;
+  top: 44.5rem;
+  left: 46.7%;
+  z-index: 996;
+}
+
+.container .section .fg_four {
+  width: 1rem;
+  height: 1rem;
+  display: block;
+  position: absolute;
+  top: 57rem;
+  left: 46.7%;
+  z-index: 997;
+}
+
+.container .section .fg_five {
+  width: 1rem;
+  height: 1rem;
+  display: block;
+  position: absolute;
+  top: 70.25rem;
+  left: 46.7%;
+  z-index: 998;
+}
+
+.container .section .fg_six {
+  width: 1rem;
+  height: 1rem;
+  display: block;
+  position: absolute;
+  top: 75.75rem;
+  left: 46.7%;
+  z-index: 998;
+}
+
+.container .section .logo {
+  width: 100%;
+  height: 3rem;
+  background: #FFFFFF;
+  position: relative;
+}
+
+.container .section .logo img {
+  display: block;
+  width: 5.75rem;
+  height: auto;
+  position: absolute;
+  bottom: 0.3rem;
+  right: 0.3rem;
+}
+
+.container .section .banner {
+  width: 100%;
+}
+
+.container .section .banner img {
+  display: block;
+  width: 100%;
+}
+
+.container .section .reason {
+  color: #2f2f2f;
+  position: relative;
+  width: 100%;
+}
+
+.container .section .reason img {
+  display: block;
+  width: 100%;
+  margin-top: 0.1rem;
+}
+
+.container .section .curriculum {
+  color: #FFFFFF;
+  position: relative;
+  width: 100%;
+}
+
+.container .section .curriculum img {
+  display: block;
+  width: 100%;
+}
+
+.container .section .curriculum h4 {
+  text-align: center;
+  font-family: "苹方";
+  font-size: 0.7rem;
+  position: absolute;
+  top: 0.8rem;
+  left: 6.5rem;
+  font-weight: 500;
+}
+
+.container .section .curriculum h6 {
+  text-align: center;
+  font-family: "苹方";
+  font-size: 0.4rem;
+  position: absolute;
+  top: 2rem;
+  left: 6.55rem;
+  margin-top: -0.25rem;
+  font-weight: 400;
+}
+
+.container .section .curriculum p {
+  display: block;
+  width: 6.8rem;
+  height: auto;
+  position: absolute;
+  top: 3rem;
+  right: 1.5rem;
+  font-family: "苹方";
+  font-size: 0.4rem;
+  line-height: 0.7rem;
+  text-align: justify;
+}
+
+.container .section .click {
+  width: 15.5rem;
+  height: 12.25rem;
+  background: #bee1a4;
+  margin: auto;
+  position: relative;
+}
+
+.container .section .click h4 {
+  text-align: center;
+  font-family: "苹方";
+  font-size: 0.6rem;
+  position: absolute;
+  top: 1.25rem;
+  left: 5.95rem;
+  font-weight: 500;
+  color: #414141;
+}
+
+.container .section .click .click_box {
+  position: absolute;
+  top: 2.6rem;
+  left: 1.5rem;
+  width: 12.5rem;
+  height: 8.15rem;
+  margin: auto;
+}
+
+.container .section .click .click_box .selset {
+  margin-bottom: 0.1rem;
+  width: 12.5rem;
+  height: 1.75rem;
+}
+
+.container .section .click .click_box .selset li {
+  position: relative;
+  width: 2.45rem;
+  height: 1.75rem;
+  background: #ffffff;
+  margin-left: 0.0625rem;
+  float: left;
+  display: inline-block;
+}
+
+.container .section .click .click_box .selset li:first-child {
+  margin-left: 0;
+}
+
+.container .section .click .click_box .selset li span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.45rem;
+  height: 0.075rem;
+  background: #a51c30;
+}
+
+.container .section .click .click_box .selset li .title {
+  padding-top: 0.15rem;
+  display: block;
+  text-align: center;
+  font-family: "苹方";
+  font-size: 0.5rem;
+  font-weight: 500;
+  color: #414141;
+}
+
+.container .section .click .click_box .selset li .p1 {
+  line-height: 0.4rem;
+  text-align: center;
+  font-family: "苹方";
+  font-size: 0.3rem;
+  font-weight: 500;
+  color: #414141;
+  display: block;
+}
+
+.container .section .click .click_box .selset li .p2 {
+  text-align: center;
+  font-family: "苹方";
+  font-size: 0.4rem;
+  font-weight: 500;
+  color: #414141;
+}
+
+.container .section .click .box_bottom {
+  width: 12.5rem;
+  height: 6.5rem;
+  background: white;
+  margin: auto;
+}
+
+.container .section .click .box_bottom .box_content {
+  position: relative;
+}
+
+.container .section .click .box_bottom .box_content li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 12.5rem;
+  height: 6.3rem;
+}
+
+.container .section .click .box_bottom .box_content li .one_first {
+  position: relative;
+  width: 12.5rem;
+  height: 3.15rem;
+}
+
+.container .section .click .box_bottom .box_content li .one_first .small {
+  width: 1rem;
+  height: 1rem;
+  padding: 0.4rem 0 1.5rem 0.5rem;
+}
+
+.container .section .click .box_bottom .box_content li .one_first .one_h5 {
+  font-family: "苹方";
+  font-size: 0.6rem;
+  position: absolute;
+  top: 0.25rem;
+  left: 2rem;
+  font-weight: 500;
+}
+
+.container .section .click .box_bottom .box_content li .one_first .one_p {
+  position: absolute;
+  top: 1.15rem;
+  left: 2rem;
+  font-family: "苹方";
+  font-size: 0.4rem;
+  font-weight: 500;
+  color: #414141;
+  display: block;
+  width: 10rem;
+}
+
+.container .section .click .box_bottom .box_content li .one_first .two_p {
+  position: absolute;
+  top: 1.75rem;
+  left: 2rem;
+  font-family: "苹方";
+  font-size: 0.4rem;
+  font-weight: 500;
+  color: #414141;
+  display: block;
+  width: 10rem;
+}
+
+.container .section .click .box_bottom .box_content li .one_first .three_p {
+  position: absolute;
+  top: 2.25rem;
+  left: 2rem;
+  font-family: "苹方";
+  font-size: 0.4rem;
+  font-weight: 500;
+  color: #414141;
+  display: block;
+  width: 10rem;
+}
+
+.container .section .click .box_bottom .box_content li .one_next {
+  position: relative;
+  width: 12.5rem;
+  height: 3.15rem;
+}
+
+.container .section .click .box_bottom .box_content li .one_next .small {
+  width: 1rem;
+  height: 1rem;
+  padding: 0rem 0 1.5rem 0.5rem;
+}
+
+.container .section .click .box_bottom .box_content li .one_next .next_h5 {
+  position: absolute;
+  font-family: "苹方";
+  font-size: 0.6rem;
+  position: absolute;
+  top: 0;
+  left: 2rem;
+  font-weight: 500;
+}
+
+.container .section .click .box_bottom .box_content li .one_next .next_p {
+  position: absolute;
+  top: 0.85rem;
+  left: 2rem;
+  font-family: "苹方";
+  font-size: 0.4rem;
+  font-weight: 500;
+  color: #414141;
+  display: block;
+  width: 10rem;
+  text-align: justify;
+}
+
+.container .section .level {
+  width: 100%;
+}
+
+.container .section .level img {
+  display: block;
+  width: 100%;
+}
+
+.container .section .contact_us {
+  width: 100%;
+}
+
+.container .section .contact_us img {
+  display: block;
+  width: 100%;
+}
+
+.container .section .footer {
+  width: 100%;
+}
+
+.container .section .footer img {
+  display: block;
+  width: 100%;
+}

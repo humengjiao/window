@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+   
+   
+}
+
+li {
+    list-style: none;
+}
+
+$sc:20;
+.container {
+    width: 100%;
+  
+    .section {
+        width: 100%;
+      
+        overflow: auto;
+        position: relative;
+        .fg_one {
+            width: 20/$sc+rem;
+            height: 20/$sc+rem;
+            display: block;
+            position: absolute;
+            top: 170/$sc+rem;
+            left: 46.7%;
+            z-index: 999;
+        }
+        .fg_two {
+            width: 20/$sc+rem;
+            height: 20/$sc+rem;
+            display: block;
+            position: absolute;
+            top: 725/$sc+rem;
+           left: 46.7%;
+            z-index: 995;
+        }
+         .fg_three {
+            width: 20/$sc+rem;
+            height: 20/$sc+rem;
+            display: block;
+            position: absolute;
+            top:890/$sc+rem;
+           left: 46.7%;
+            z-index: 996;
+        }
+         .fg_four {
+            width: 20/$sc+rem;
+            height: 20/$sc+rem;
+            display: block;
+            position: absolute;
+            top: 1140/$sc+rem;
+            left: 46.7%;
+            z-index: 997;
+        }
+         .fg_five {
+            width: 20/$sc+rem;
+            height: 20/$sc+rem;
+            display: block;
+            position: absolute;
+            top: 1405/$sc+rem;
+            left: 46.7%;
+            z-index: 998;
+        }
+        .fg_six {
+            width: 20/$sc+rem;
+            height: 20/$sc+rem;
+            display: block;
+            position: absolute;
+            top: 1515/$sc+rem;
+          left: 46.7%;
+            z-index: 998;
+        }
+        .logo {
+            width: 100%;
+            height: 60/$sc+rem;
+            background: #FFFFFF;
+            position: relative;
+            img {
+                display: block;
+                width: 115/$sc+rem;
+                height: auto;
+                position: absolute;
+                bottom: 6/$sc+rem;
+                right: 6/$sc+rem;
+            }
+        }
+        .banner {
+            width: 100%;
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+        .reason {
+            color: #2f2f2f;
+            position: relative;
+            width: 100%;
+            img {
+                display: block;
+                width: 100%;
+                margin-top: 2/$sc+rem;;
+            }
+//          h4 {
+//              text-align: center;
+//              font-family: "苹方";
+//              font-size: 14/$sc+rem;
+//              position: absolute;
+//              top: 15/$sc+rem;
+//              left: 98/$sc+rem;
+//              font-weight: 500;
+//          }
+//          h6 {
+//              text-align: center;
+//              font-family: "苹方";
+//              font-size: 8/$sc+rem;
+//              position: absolute;
+//              top: 40/$sc+rem;
+//              left: 92/$sc+rem;
+//              margin-top: -5/$sc+rem;
+//              font-weight:400;
+//          }
+//          .h5_one {
+//              position: absolute;
+//              top: 58/$sc+rem;
+//              left: 64/$sc+rem;
+//              font-family: "苹方";
+//              font-size: 10/$sc+rem;
+//              font-weight: 500;
+//          }
+//          .h5_two {
+//              position: absolute;
+//              top: 153/$sc+rem;
+//              right: 60/$sc+rem;
+//              font-family: "苹方";
+//              font-size: 10/$sc+rem;
+//              font-weight: 500;
+//          }
+//          .h5_three {
+//              position: absolute;
+//              top: 250/$sc+rem;
+//              left: 64/$sc+rem;
+//              font-family: "苹方";
+//              font-size: 10/$sc+rem;
+//              font-weight: 500;
+//          }
+//          .h5_four {
+//              position: absolute;
+//              top: 348/$sc+rem;
+//              right: 60/$sc+rem;
+//              font-family: "苹方";
+//              font-size: 10/$sc+rem;
+//              font-weight: 500;
+//          }
+//          .h5_five {
+//              position: absolute;
+//              top: 443/$sc+rem;
+//              left: 64/$sc+rem;
+//              font-family: "苹方";
+//              font-size: 10/$sc+rem;
+//              font-weight: 500;
+//          }
+//          .p_one {
+//              display: block;
+//              width: 130/$sc+rem;
+//              height: auto;
+//              position: absolute;
+//              top: 83/$sc+rem;
+//              left: 110/$sc+rem;
+//              font-family: "苹方";
+//              font-size: 6/$sc+rem;
+//              line-height: 11/$sc+rem;
+//              text-align: justify;
+//          }
+//          .p_two {
+//              display: block;
+//              width: 130/$sc+rem;
+//              height: auto;
+//              position: absolute;
+//              top: 183/$sc+rem;
+//              left: 84/$sc+rem;
+//              font-family: "苹方";
+//              font-size: 6/$sc+rem;
+//              line-height: 12/$sc+rem;
+//              text-align: justify;
+//          }
+//          .p_three {
+//              display: block;
+//              width: 130/$sc+rem;
+//              height: auto;
+//              position: absolute;
+//              top: 278/$sc+rem;
+//              left: 110/$sc+rem;
+//              font-family: "苹方";
+//              font-size: 6/$sc+rem;
+//              line-height: 12/$sc+rem;
+//              text-align: justify;
+//          }
+//          .p_four {
+//              display: block;
+//              width: 130/$sc+rem;
+//              height: auto;
+//              position: absolute;
+//              top: 373/$sc+rem;
+//              left: 86/$sc+rem;
+//              font-family: "苹方";
+//              font-size: 6/$sc+rem;
+//              line-height: 9/$sc+rem;
+//              text-align: justify;
+//          }
+//          .p_five {
+//              display: block;
+//              width: 130/$sc+rem;
+//              height: auto;
+//              position: absolute;
+//              top: 475/$sc+rem;
+//              left: 110/$sc+rem;
+//              font-family: "苹方";
+//              font-size: 6/$sc+rem;
+//              line-height: 12/$sc+rem;
+//              text-align: justify;
+//          }
+        }
+        .curriculum {
+            color: #FFFFFF;
+            position: relative;
+            width: 100%;
+            img {
+                display: block;
+                width: 100%;
+            }
+            h4 {
+                text-align: center;
+                font-family: "苹方";
+                font-size: 14/$sc+rem;
+                position: absolute;
+                top: 16/$sc+rem;
+                left: 130/$sc+rem;
+                font-weight: 500;
+            }
+            h6 {
+                text-align: center;
+                font-family: "苹方";
+                font-size: 8/$sc+rem;
+                position: absolute;
+                top: 40/$sc+rem;
+                left: 131/$sc+rem;
+                margin-top: -5/$sc+rem;
+                font-weight: 400;
+            }
+            p {
+                display: block;
+                width: 136/$sc+rem;
+                height: auto;
+                position: absolute;
+                top: 60/$sc+rem;
+                right: 30/$sc+rem;
+                font-family: "苹方";
+                font-size: 8/$sc+rem;
+                line-height: 14/$sc+rem;
+                text-align: justify;
+            }
+        }
+        .click {
+            width: 310/$sc+rem;
+            height: 245/$sc+rem;
+            background: #bee1a4;
+            margin: auto;
+            position: relative;
+            h4 {
+                text-align: center;
+                font-family: "苹方";
+                font-size: 12/$sc+rem;
+                position: absolute;
+                top: 25/$sc+rem;
+                left: 119/$sc+rem;
+                font-weight: 500;
+                color: #414141;
+            }
+            .click_box {
+                position: absolute;
+                top: 52/$sc+rem;
+                left: 30/$sc+rem;
+                width: 250/$sc+rem;
+                height: 163/$sc+rem;
+                margin: auto;
+                .selset {
+                    margin-bottom: 2/$sc+rem;
+                    ;
+                    width: 250/$sc+rem;
+                    height: 35/$sc+rem;
+                    li {
+                        position: relative;
+                        width: 49/$sc+rem;
+                        height: 35/$sc+rem;
+                        background: #ffffff;
+                        margin-left: 1.25/$sc+rem;
+                        float: left;
+                        display: inline-block;
+                        &:first-child {
+                            margin-left: 0;
+                        }
+                        span {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 49/$sc+rem;
+                            height: 1.5/$sc+rem;
+                            background: #a51c30;
+                        }
+                        .title {
+                            padding-top: 3/$sc+rem;
+                            display: block;
+                            text-align: center;
+                            font-family: "苹方";
+                            font-size: 10/$sc+rem;
+                            font-weight: 500;
+                            color: #414141;
+                        }
+                        .p1 {
+                            line-height: 8/$sc+rem;
+                            text-align: center;
+                            font-family: "苹方";
+                            font-size: 6/$sc+rem;
+                            font-weight: 500;
+                            color: #414141;
+                            display: block;
+                        }
+                        .p2 {
+                            text-align: center;
+                            font-family: "苹方";
+                            font-size: 8/$sc+rem;
+                            font-weight: 500;
+                            color: #414141;
+                        }
+                    }
+                }
+            }
+            .box_bottom {
+                width: 250/$sc+rem;
+                height: 130/$sc+rem;
+                background: white;
+                margin: auto;
+                .box_content {
+                    position: relative;
+                    li {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 250/$sc+rem;
+                        height: 126/$sc+rem;
+                        .one_first {
+                            position: relative;
+                            width: 250/$sc+rem;
+                            height: 63/$sc+rem;
+                            .small {
+                                width: 20/$sc+rem;
+                                height: 20/$sc+rem;
+                                padding: 8/$sc+rem 0 30/$sc+rem 10/$sc+rem;
+                            }
+                            .one_h5 {
+                                font-family: "苹方";
+                                font-size: 12/$sc+rem;
+                                position: absolute;
+                                top: 5/$sc+rem;
+                                left: 40/$sc+rem;
+                                font-weight: 500;
+                            }
+                            .one_p {
+                                position: absolute;
+                                top: 23/$sc+rem;
+                                left: 40/$sc+rem;
+                                font-family: "苹方";
+                                font-size: 8/$sc+rem;
+                                font-weight: 500;
+                                color: #414141;
+                                display: block;
+                                width: 200/$sc+rem;
+                            }
+                            .two_p {
+                                position: absolute;
+                                top: 35/$sc+rem;
+                                left: 40/$sc+rem;
+                                font-family: "苹方";
+                                font-size: 8/$sc+rem;
+                                font-weight: 500;
+                                color: #414141;
+                                display: block;
+                                width: 200/$sc+rem;
+                            }
+                            .three_p {
+                                position: absolute;
+                                top: 45/$sc+rem;
+                                left: 40/$sc+rem;
+                                font-family: "苹方";
+                                font-size: 8/$sc+rem;
+                                font-weight: 500;
+                                color: #414141;
+                                display: block;
+                                width: 200/$sc+rem;
+                            }
+                        }
+                        .one_next {
+                            position: relative;
+                            width: 250/$sc+rem;
+                            height: 63/$sc+rem;
+                            .small {
+                                width: 20/$sc+rem;
+                                height: 20/$sc+rem;
+                                padding: 0/$sc+rem 0 30/$sc+rem 10/$sc+rem;
+                            }
+                            .next_h5 {
+                                position: absolute;
+                                font-family: "苹方";
+                                font-size: 12/$sc+rem;
+                                position: absolute;
+                                top: 0;
+                                left: 40/$sc+rem;
+                                font-weight: 500;
+                            }
+                            .next_p {
+                                position: absolute;
+                                top: 17/$sc+rem;
+                                left: 40/$sc+rem;
+                                font-family: "苹方";
+                                font-size: 8/$sc+rem;
+                                font-weight: 500;
+                                color: #414141;
+                                display: block;
+                                width: 200/$sc+rem;
+                                text-align: justify;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .level {
+            width: 100%;
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+        .contact_us {
+            width: 100%;
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+        .footer {
+            width: 100%;
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}
